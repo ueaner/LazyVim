@@ -1,0 +1,18 @@
+# .github/workflows/sync.yml
+name: Sync Fork
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  schedule:
+    - cron: "30 5 * * *"
+jobs:
+  repo-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: tgymnich/fork-sync@v1.8
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          owner: ueaner
+          head: main
+          base: main
