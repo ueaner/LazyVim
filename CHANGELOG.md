@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.10.0](https://github.com/LazyVim/LazyVim/compare/v1.9.4...v1.10.0) (2023-02-16)
+
+
+### Features
+
+* **leap:** lazy-load leap/flit and added keymaps ([eccd122](https://github.com/LazyVim/LazyVim/commit/eccd122e6dafae48bbf3c63e9fb3ae1ad4fc47a4))
+
+
+### Bug Fixes
+
+* **treesitter-textobjects:** only disable the textobject plugins/* files when its not enabled in the treesitter opts ([94ebe25](https://github.com/LazyVim/LazyVim/commit/94ebe25ccb296e4342586723acd1d35b8fda8f35))
+
+## [1.9.4](https://github.com/LazyVim/LazyVim/compare/v1.9.3...v1.9.4) (2023-02-15)
+
+
+### Bug Fixes
+
+* **health:** also check for fdfind instead of just fd. Fixes [#270](https://github.com/LazyVim/LazyVim/issues/270) ([d198a19](https://github.com/LazyVim/LazyVim/commit/d198a193256429e401fbec7fa8ac7a46de06f07b))
+
 ## [1.9.3](https://github.com/LazyVim/LazyVim/compare/v1.9.2...v1.9.3) (2023-02-14)
 
 
